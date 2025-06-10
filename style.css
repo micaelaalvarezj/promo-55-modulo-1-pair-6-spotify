@@ -38,3 +38,28 @@ a {
     padding-right: 25px;
     padding-bottom: 35px;
 }
+
+.links {
+  display: none;
+}
+
+@media screen and (min-width: 736px) {
+  .links {
+    display: flex;
+    gap: 20px;
+  }
+
+  .links li {
+    list-style: none;
+  }
+
+  .links li a {
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, sans-serif;
+  }
+
+  .menu {
+    display: none;
+  }
+  }
