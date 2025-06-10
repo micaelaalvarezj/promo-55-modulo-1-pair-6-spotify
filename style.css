@@ -39,8 +39,50 @@ a {
     padding-bottom: 35px;
 }
 
+h1 {
+    color: white;
+    margin: 20px 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    color: black;
+    margin: 20px 0px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    
+
+}
+
+h3 {
+    color: white;
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+ .text-box {
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
 .links {
   display: none;
+}
+
+.button {
+    background-color: #26B558;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 30px;
+    border: none;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.benefits {
+    width: 100px;
+    margin: 20px;
 }
 
 @media screen and (min-width: 736px) {
