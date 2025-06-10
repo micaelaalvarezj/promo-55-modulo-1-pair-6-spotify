@@ -1,3 +1,40 @@
-.cabecera{
-    display: inline-block;
+/* Restablecer los márgenes y padding de los elementos principales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Restablecer el estilo de la lista */
+ul {
+  list-style: none; /* Eliminar puntos de lista */
+}
+
+/* Restablecer el estilo del enlace */
+a {
+  text-decoration: none; /* Eliminar subrayado */
+}
+
+.header-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    }
+
+.logo {
+    width: 100px;
+}   
+
+.menu {
+    width: 25px;
+}
+
+.blue-box {
+    background-color: #529cf1;
+    padding-top: 130px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
 }
