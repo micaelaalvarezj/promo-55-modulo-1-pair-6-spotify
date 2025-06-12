@@ -42,27 +42,36 @@ a {
 h1 {
     color: white;
     margin: 20px 0px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 h2 {
     color: black;
     margin: 20px 0px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    
+  }
 
+.title {
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
     color: white;
     margin: 0px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
  .text-box {
     color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .links {
@@ -76,13 +85,23 @@ h3 {
     margin: 20px 0px;
     border-radius: 30px;
     border: none;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
 .benefits {
     width: 100px;
     margin: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
 @media screen and (min-width: 736px) {
@@ -98,7 +117,7 @@ h3 {
   .links li a {
     text-decoration: none;
     color: white;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 
   .menu {
